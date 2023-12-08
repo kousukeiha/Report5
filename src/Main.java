@@ -5,7 +5,7 @@ public class Main{
             System.out.println("文字長さは"+str.length());
         }catch(NullPointerException e){
             System.out.println("NullPointExceptionが発生しました。");
-            System.out.println("Exception Messege;" + e.getMessage());
+            System.out.println("Exception Message;" + e.getMessage());
         }
     }
 }
